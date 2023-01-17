@@ -1,0 +1,6 @@
+name: OFLootGenerator
+version: '${version}'
+main: me.orbitium.oflootgenerator.OFLootGenerator
+api-version: 1.19
+commands:
+  loot:

@@ -1,0 +1,26 @@
+# Config for OFLootGenerator
+
+messages:
+  itemSaved: "&2Item saved!"
+  itemDeleted: "&2Item deleted!"
+  itemGave: "&2Item gave!"
+  reloadStarted: "&2Reload started! It can take a bit"
+  reloadFinished: "&2Reload finished!"
+
+  errors:
+    youHaveToHoldItem: "&4You have to hold an item for use the command!"
+    invalidNameLength: "&4Invalid name length! Name must be around 3 and 16 characters"
+    nameMustBeUnique: "&4Invalid name! The name must be unique, the name is used before!"
+    invalidName: "&4Invalid name! File couldn't found!"
+
+
+# If the config is true, vanilla loot won't be added to loot tables
+# Note: Vanilla loot is not effect to maximum item count
+removeVanillaLoot: true
+
+# If the config is true, loot table names will be wrote by LootGenerateEvent
+# The actual key is after written character '/'
+# Such as: minecraft:chests/desert_pyramid file name must be desert_pyramid
+# Do not forget some loot table names can be written different by Spigot
+# Check this document: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/loot/LootTables.html
+debugMode: false
